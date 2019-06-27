@@ -4,6 +4,6 @@ import (
     "fmt"
 )
 
-func Hello(name string) {
-    fmt.Printf("Hello %s\n", name)
+func Hello(name string, surname string) {
+    fmt.Printf("Hello %s %s\n", name, surname)
 }
